@@ -1,0 +1,108 @@
+# ============================================================
+# .gitignore for JavaScript / TypeScript / Node.js Projects
+# ============================================================
+
+# ── Dependencies ─────────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# ── Build Output ─────────────────────────────────────────────
+dist/
+build/
+out/
+.next/
+.nuxt/
+.vite/
+.svelte-kit/
+
+# ── TypeScript ───────────────────────────────────────────────
+*.tsbuildinfo
+*.js.map
+*.d.ts.map
+# Uncomment if you commit compiled output:
+# !dist/**/*.d.ts
+
+# ── Cache ─────────────────────────────────────────────────────
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.npm
+.pnpm-store/
+.turbo/
+*.tsbuildinfo
+
+# ── Environment Variables — NEVER COMMIT THESE ───────────────
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+*.env
+
+# ── Logs ─────────────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ── Testing ───────────────────────────────────────────────────
+coverage/
+*.lcov
+.nyc_output/
+test-results/
+playwright-report/
+.jest-cache/
+
+# ── Editor & IDE ─────────────────────────────────────────────
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ── OS Files ──────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ── Package Manager Locks (keep one, ignore others) ──────────
+# Uncomment whichever you DON'T use:
+# package-lock.json   # if using yarn or pnpm
+# yarn.lock           # if using npm or pnpm
+# pnpm-lock.yaml      # if using npm or yarn
+
+# ── Serverless ────────────────────────────────────────────────
+.serverless/
+.vercel/
+.netlify/
+
+# ── Misc ──────────────────────────────────────────────────────
+tmp/
+temp/
+*.tmp
+*.bak
+*.pid
+*.seed
+.grunt/
+bower_components/
+jspm_packages/
+web_modules/
